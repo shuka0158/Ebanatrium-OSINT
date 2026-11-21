@@ -3,7 +3,7 @@
 class MobileIntelligencePlatform:
     name = "Mobile Intelligence Platform"
     category = "Intelligence"
-    accepts = ["*"]
+    accepts = ['phone_number', 'name', 'username', 'email_address']
     
     def investigate(self, target, ctx):
         try:

@@ -3,7 +3,7 @@
 class CredentialStuffingDetection:
     name = "Credential Stuffing Detection"
     category = "Security"
-    accepts = ["email_address"]
+    accepts = ['email_address', 'username', 'name', 'phone']
     
     def investigate(self, target, ctx):
         try:

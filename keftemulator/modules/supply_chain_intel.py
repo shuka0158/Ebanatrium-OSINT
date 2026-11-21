@@ -3,7 +3,7 @@
 class SupplyChainIntelligence:
     name = "Supply Chain Intelligence"
     category = "Intelligence"
-    accepts = ["*"]
+    accepts = ['company', 'domain', 'name']
     
     def investigate(self, target, ctx):
         try:

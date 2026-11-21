@@ -3,7 +3,7 @@
 class ASNBGPDatabase:
     name = "ASN & BGP Database"
     category = "Intelligence"
-    accepts = ["ip_address", "domain"]
+    accepts = ['ip_address', 'domain', 'name']
     
     def investigate(self, target, ctx):
         try:

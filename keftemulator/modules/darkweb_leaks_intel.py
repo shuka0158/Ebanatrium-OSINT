@@ -3,7 +3,7 @@
 class DarkWebLeaksIntel:
     name = "Dark Web Leaks Intelligence"
     category = "Intelligence"
-    accepts = ["email_address", "username", "domain"]
+    accepts = ['email_address', 'username', 'domain', 'name', 'phone']
     
     def investigate(self, target, ctx):
         try:

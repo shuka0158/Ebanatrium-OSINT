@@ -5,7 +5,7 @@ import requests
 class LinkedInIntelligence:
     name = "LinkedIn Intelligence"
     category = "People Search"
-    accepts = ["name", "email_address", "company"]
+    accepts = ['name', 'email_address', 'company', 'username']
     
     def investigate(self, target, ctx):
         """Search LinkedIn for professional profiles"""

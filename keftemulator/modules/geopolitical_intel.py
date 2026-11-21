@@ -3,7 +3,7 @@
 class GeopoliticalIntelligence:
     name = "Geopolitical Intelligence"
     category = "Intelligence"
-    accepts = ["*"]
+    accepts = ['name', 'company', 'domain', 'username']
     
     def investigate(self, target, ctx):
         try:

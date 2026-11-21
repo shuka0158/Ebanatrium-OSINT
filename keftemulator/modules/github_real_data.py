@@ -7,7 +7,7 @@ import os
 class GitHubRealData:
     name = "GitHub - Real Profile Data"
     category = "People Search"
-    accepts = ["username"]
+    accepts = ['username', 'name', 'person', 'email_address']
     
     def __init__(self):
         self.token = os.getenv("GITHUB_TOKEN") or None

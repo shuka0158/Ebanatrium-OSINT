@@ -3,7 +3,7 @@
 class PasswordAnalysis:
     name = "Password Analysis Engine"
     category = "Security"
-    accepts = ["email_address"]
+    accepts = ['email_address', 'username', 'name', 'phone']
     
     def investigate(self, target, ctx):
         try:

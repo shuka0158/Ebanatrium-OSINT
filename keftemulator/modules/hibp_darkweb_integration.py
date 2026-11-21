@@ -3,7 +3,7 @@
 class HibpDarkwebIntegration:
     name = "HIBP+ Dark Web Integration"
     category = "Intelligence"
-    accepts = ["email_address", "username"]
+    accepts = ['email_address', 'username', 'name', 'phone']
     
     def investigate(self, target, ctx):
         try:

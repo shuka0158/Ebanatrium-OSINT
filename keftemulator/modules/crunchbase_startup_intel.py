@@ -3,7 +3,7 @@
 class CrunchbaseStartupIntel:
     name = "Crunchbase Startup Intelligence"
     category = "Intelligence"
-    accepts = ["company", "domain"]
+    accepts = ['company', 'domain', 'name']
     
     def investigate(self, target, ctx):
         try:

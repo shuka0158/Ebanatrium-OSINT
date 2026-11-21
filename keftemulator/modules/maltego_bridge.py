@@ -8,7 +8,7 @@ from keftemulator.config import MALTEGO_EMAIL, MALTEGO_API_KEY
 class MaltegoBridge:
     name = "Maltego Intelligence Bridge"
     category = "Intelligence"
-    accepts = ["domain", "ip_address", "email_address", "username", "name"]
+    accepts = ["*"]
     
     def __init__(self):
         self.api_url = "https://api.maltego.com/api/v1"

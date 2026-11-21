@@ -7,7 +7,7 @@ class VINDecoderReal(Module):
     title = "VIN Decoder - Real Vehicle Data"
     category = "Intelligence"
     description = "Decode VIN and extract REAL vehicle specifications"
-    accepts = ("vin",)
+    accepts = ['vin', 'name', 'vehicle']
 
     def run(self, ent, ctx):
         vin = ent.value.strip().upper()

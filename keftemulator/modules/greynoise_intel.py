@@ -3,7 +3,7 @@
 class GreyNoiseIntel:
     name = "GreyNoise Internet Scanner"
     category = "Intelligence"
-    accepts = ["ip_address"]
+    accepts = ['ip_address', 'domain', 'name']
     
     def investigate(self, target, ctx):
         try:

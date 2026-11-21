@@ -6,7 +6,7 @@ import os
 class ShodanIoTIntelligence:
     name = "Shodan IoT Intelligence"
     category = "Intelligence"
-    accepts = ["ip_address", "domain", "company"]
+    accepts = ['ip_address', 'domain', 'name']
     
     def investigate(self, target, ctx):
         """Search Shodan for IoT/server data"""

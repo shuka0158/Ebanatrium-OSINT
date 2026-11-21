@@ -5,7 +5,7 @@ import requests
 class ClearbitEnrichment:
     name = "Clearbit Enrichment"
     category = "Intelligence"
-    accepts = ["email_address", "domain", "company"]
+    accepts = ['email_address', 'domain', 'company', 'name', 'username']
     
     def investigate(self, target, ctx):
         """Enrich data with Clearbit"""

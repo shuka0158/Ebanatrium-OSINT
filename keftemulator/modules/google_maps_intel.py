@@ -3,7 +3,7 @@
 class GoogleMapsIntel:
     name = "Google Maps Intelligence"
     category = "Intelligence"
-    accepts = ["company", "domain", "phone_number"]
+    accepts = ['company', 'domain', 'phone_number', 'name']
     
     def investigate(self, target, ctx):
         try:

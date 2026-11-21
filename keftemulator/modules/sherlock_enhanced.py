@@ -8,7 +8,7 @@ class SherlockEnhanced(Module):
     title = "Username Finder (100+ Sites)"
     category = "People Search"
     description = "Search username across 100+ platforms (Sherlock)"
-    accepts = ("username",)
+    accepts = ("username", "name", "person")
 
     def run(self, ent, ctx):
         username = ent.value.strip().lower()

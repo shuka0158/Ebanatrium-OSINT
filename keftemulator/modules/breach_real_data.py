@@ -7,7 +7,7 @@ class BreachRealData(Module):
     title = "Breach Database - Real Data"
     category = "Security"
     description = "Find REAL breach data: compromised emails, databases, years"
-    accepts = ("email_address", "username")
+    accepts = ("email_address", "username", "name", "person")
 
     def run(self, ent, ctx):
         query = ent.value.strip().lower()

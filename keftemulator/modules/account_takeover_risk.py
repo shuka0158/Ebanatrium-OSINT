@@ -3,7 +3,7 @@
 class AccountTakeoverRisk:
     name = "Account Takeover Risk Assessment"
     category = "Security"
-    accepts = ["email_address", "username"]
+    accepts = ['email_address', 'username', 'name', 'phone']
     
     def investigate(self, target, ctx):
         try:

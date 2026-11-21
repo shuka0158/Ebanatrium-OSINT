@@ -3,7 +3,7 @@
 class FinancialIntelligence:
     name = "Financial Intelligence"
     category = "Intelligence"
-    accepts = ["*"]
+    accepts = ['name', 'company', 'domain', 'email_address']
     
     def investigate(self, target, ctx):
         try:

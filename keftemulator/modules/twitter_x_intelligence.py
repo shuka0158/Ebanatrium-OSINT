@@ -6,7 +6,7 @@ import os
 class TwitterXIntelligence:
     name = "Twitter/X Intelligence"
     category = "People Search"
-    accepts = ["username", "email_address"]
+    accepts = ['username', 'name', 'email_address']
     
     def investigate(self, target, ctx):
         """Search Twitter/X for user data and tweets"""

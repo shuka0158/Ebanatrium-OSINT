@@ -3,7 +3,7 @@
 class CensysCertificates:
     name = "Censys Certificates"
     category = "Intelligence"
-    accepts = ["domain", "ip_address"]
+    accepts = ['domain', 'ip_address', 'name']
     
     def investigate(self, target, ctx):
         try:

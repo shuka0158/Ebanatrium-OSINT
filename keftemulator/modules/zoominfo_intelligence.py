@@ -3,7 +3,7 @@
 class ZoomInfoIntelligence:
     name = "ZoomInfo Intelligence"
     category = "Intelligence"
-    accepts = ["company", "email_address", "phone_number"]
+    accepts = ['company', 'email_address', 'phone_number', 'name']
     
     def investigate(self, target, ctx):
         try:

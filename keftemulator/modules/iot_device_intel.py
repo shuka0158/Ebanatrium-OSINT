@@ -3,7 +3,7 @@
 class IoTDeviceIntelligence:
     name = "IoT & Device Intelligence"
     category = "Intelligence"
-    accepts = ["*"]
+    accepts = ['ip_address', 'domain', 'name']
     
     def investigate(self, target, ctx):
         try:

@@ -3,7 +3,7 @@
 class FullContactEnrichment:
     name = "FullContact Enrichment"
     category = "Intelligence"
-    accepts = ["email_address", "phone_number", "name"]
+    accepts = ['email_address', 'phone_number', 'name', 'username']
     
     def investigate(self, target, ctx):
         try:
