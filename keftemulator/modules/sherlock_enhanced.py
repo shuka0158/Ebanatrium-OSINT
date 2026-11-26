@@ -20,12 +20,12 @@ class SherlockEnhanced(Module):
         ctx.log(f"Searching for verified accounts: {username}", "info")
 
         try:
-            # Run Sherlock tool
+            # Run Sherlock tool with optimized timeouts
             result = subprocess.run(
                 ["sherlock", username, "--timeout", "5", "--no-color"],
                 capture_output=True,
                 text=True,
-                timeout=30
+                timeout=60
             )
 
             if result.returncode == 0:
